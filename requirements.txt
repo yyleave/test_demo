@@ -1,0 +1,18 @@
+# AutoPaper 项目依赖
+
+# 核心依赖
+openai>=1.0.0              # OpenAI兼容API客户端（豆包）
+python-dotenv>=1.0.0       # 环境变量管理
+
+# Phase 1: 知识图谱可视化
+networkx>=3.0              # 图论库
+pyvis>=0.3.0               # 交互式网络可视化
+matplotlib>=3.5.0          # 静态图表生成
+
+# 数据处理
+requests>=2.31.0           # HTTP请求（用于文献检索）
+
+# 可选依赖（用于增强功能）
+# scipy>=1.10.0            # 科学计算（图谱分析）
+# pandas>=2.0.0            # 数据处理
+# seaborn>=0.12.0          # 高级可视化

@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment variables
+.env
+
+# Output files (gitignore generated outputs)
+phase1_output.json
+phase2_output.json
+phase3_output.json
+phase4_output.json
+phase1_kg_visualization.html
+phase1_kg_visualization.png
+phase1_kg_tree.json
+
+# Experiment directories
+experiments/
+
+# Paper output
+paper_output/
+
+# LaTeX auxiliary files
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+*.synctex.gz
+
+# macOS
+.DS_Store
+
+# Test temporary files
+/tmp/
+*.tmp
